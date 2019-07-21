@@ -18,6 +18,7 @@ public class arrayWhileLoop {
             }else
                 oddNumber.add(shirts[i]);
         } i++;
+        // git test
 
         //System.out.println("Please see the above list for even numbers");
         //System.out.println("The sum of even numbers are " + even_Sum);
