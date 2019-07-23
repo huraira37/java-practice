@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class forLoopArray3 {
+public class arrayWhileLoop3 {
     //Use 1 loop and if-else to find the sum of even & odd number(This assingment has issues)
     public static void main(String[] args) {
         int even_Sum=0, odd_Sum=0,count,i=0;
