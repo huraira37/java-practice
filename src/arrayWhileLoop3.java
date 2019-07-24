@@ -8,13 +8,14 @@ public class arrayWhileLoop3 {
         count=numbers.length;
         ArrayList<Integer> evenNumber=new ArrayList<>();
         ArrayList<Integer> oddNumber=new ArrayList<>();
-        while (i<=count)
+        while (i<count)//resolved the count error
         {
             if(numbers[i] % 2 == 0)
             {
                 even_Sum+=numbers[i];
                 evenNumber.add(numbers[i]);
-                System.out.println("Even number is: "+numbers[i]);
+
+                System.out.println("Even number is: "+even_Sum);
             }
             else {
                 odd_Sum+=numbers[i];
@@ -22,7 +23,9 @@ public class arrayWhileLoop3 {
                 System.out.println("Odd number is: "+numbers[i]);
             }
             i++;
+
         }
+        System.out.println("Test");
         System.out.println("The Sum of Even Numbers: " + even_Sum);
         System.out.println("The Sum of Odd Numbers: " + odd_Sum);
     }
